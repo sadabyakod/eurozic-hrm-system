@@ -45,7 +45,25 @@ function App() {
                 <Link to="/leave">Leave Management</Link>
               </li>
               <li>
-                <a href="#" onClick={handleLogout}>Logout</a>
+                <button 
+                  onClick={handleLogout}
+                  style={{ 
+                    background: 'none', 
+                    border: 'none', 
+                    color: 'white', 
+                    cursor: 'pointer',
+                    display: 'block',
+                    padding: '10px',
+                    width: '100%',
+                    textAlign: 'left',
+                    borderRadius: '5px',
+                    transition: 'background-color 0.3s'
+                  }}
+                  onMouseEnter={(e) => e.target.style.backgroundColor = '#34495e'}
+                  onMouseLeave={(e) => e.target.style.backgroundColor = 'transparent'}
+                >
+                  Logout
+                </button>
               </li>
             </ul>
           </nav>

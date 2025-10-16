@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Login({ onLogin }) {
+  // Note: This is a demo login system that accepts any credentials.
+  // In production, implement proper authentication with backend validation.
   const handleSubmit = (e) => {
     e.preventDefault();
     onLogin();

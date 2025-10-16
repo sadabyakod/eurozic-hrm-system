@@ -22,8 +22,9 @@ function Employees() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const maxId = employees.length > 0 ? Math.max(...employees.map(emp => emp.id)) : 0;
     const newEmployee = {
-      id: employees.length + 1,
+      id: maxId + 1,
       ...formData,
       status: 'Active',
     };
