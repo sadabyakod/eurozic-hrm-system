@@ -1,0 +1,12 @@
+{
+  "name": "aichatbot",
+  "version": "1.0.0",
+  "description": "This is a Human Resource Management system built with React. It includes: - frontend/: React app with HRM management components including Employee Management, Leave Tracking, Payroll, Performance Reviews, Recruitment, and Offer Letters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
