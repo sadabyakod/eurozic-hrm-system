@@ -1,5 +1,7 @@
 # Neurozic HRM System
 
+**Neurozic Software Solutions Pvt Ltd Human Resource Management Dashboard**
+
 A comprehensive Human Resource Management (HRM) system built with React.js frontend and Node.js backend API.
 
 ## 🚀 Features
@@ -32,7 +34,7 @@ A comprehensive Human Resource Management (HRM) system built with React.js front
 ## 📁 Project Structure
 
 ```
-AIChatBot/
+neurozic-hrm-system/
 ├── frontend/                 # React.js frontend application
 │   ├── src/
 │   │   ├── components/       # Reusable UI components
@@ -192,29 +194,3 @@ For support and inquiries, please contact the development team.
 ---
 
 Built with ❤️ by Neurozic Software Solutions
-
-This is a Human Resource Management system built with React.
-It includes:
-- frontend/: React app with HRM management components including Employee Management, Leave Tracking, Payroll, Performance Reviews, Recruitment, and Offer Letters
-
-## Defaults chosen for you
-- Frontend: React development server (npm start)
-
-## How to run (local)
-
-### Frontend (React)
-1. Node.js and npm required (recommend Node 18+).
-2. Open terminal in `frontend` folder.
-3. Run:
-   ```
-   npm install
-   npm start
-   ```
-4. The app will open at http://localhost:3000
-
-## Deployment
-- Frontend: Vercel / Netlify / static hosting
-
-## Notes
-- This is a frontend-only HRM system with mock data for all components.
-- For production, add authentication, data persistence, and backend services.
