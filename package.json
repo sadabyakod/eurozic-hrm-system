@@ -1,0 +1,24 @@
+{
+  "name": "eurozic-hrm-system",
+  "version": "1.0.0",
+  "description": "Neurozic Software Solutions Pvt Ltd Human Resource Management Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.10"
+  }
+}
